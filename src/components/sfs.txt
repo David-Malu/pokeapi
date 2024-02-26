@@ -1,0 +1,10 @@
+// Se utiliza map para iterar sobre los resultados obtenidos y crear una serie de 
+    // solicitudes asíncronas. Por cada Pokémon en los resultados, 
+    // se realiza una solicitud a su URL individual para obtener más detalles, 
+    // como su nombre, imagen y poder.
+
+
+
+
+    // Se utiliza Promise.all para esperar todas las solicitudes asíncronas y 
+    // obtener los datos de los Pokémon restantes.
